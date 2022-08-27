@@ -1,0 +1,71 @@
+/*universel selector */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*Element/Name selector */
+body{
+background-color: rgba(25, 140, 148, 0.911);
+}
+/*id selector */
+#admin-box{
+background-color: rgba(155, 145, 57, 0.952);
+color:black;
+text-align: center;
+width: 30%;
+margin: 3% auto;
+padding: 20px;
+border-radius: 10px;
+border: 2px solid black;
+}
+/*Class selector */
+.admin-img{
+width: 150px;
+padding: 10px;
+}
+/*Decendent selector*/
+#admin-box h1{
+font-size: 35px;
+}
+/*Grouping selector*/
+input, 
+label{
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+input{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+label{
+  font-size: 15px;
+}
+p {
+font-size: 15px;
+}
+p a{
+  text-decoration: none;
+}
+input:hover{
+  background-color:rgba(25, 140, 148, 0.911) ;
+}
+input::placeholder{
+  color: black;
+  text-align: center;
+ }
+input[type="submit"]{
+  background-color:rgba(25, 140, 148, 0.911) ;
+  border: 1px solid rgba(25, 140, 148, 0.911);
+  margin: 20px auto;
+  width: 25%;
+  transition: ease-in-out 0.10s;
+}
+input[type="submit"]:hover{
+  background-color: transparent;
+  border: 1px solid black ;
+}
